@@ -1,5 +1,8 @@
-task upper << {
-  String someString = 'mY_nAmE'
-  println "Original: " + someString
-  println "Upper case: " + someString.toUpperCase()
+apply plugin: 'java'
+
+sourceCompatibility = 1.6
+targetCompatibility = 1.6
+
+check << {
+  println 'do last?'
 }
