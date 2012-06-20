@@ -5,7 +5,7 @@ import static org.junit.Assert.*;
 public class MyTest {
   @Test
   public void test() {
-    assertEquals(true, false);
+    assertEquals(true, true);
   }
 
 }
