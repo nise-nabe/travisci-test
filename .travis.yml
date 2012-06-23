@@ -6,8 +6,8 @@ python:
   - "3.2"
 
 install:
-  - pip install --use-mirrors tox
+  - pip install --use-mirrors 
 
 script:
-  - tox
+  - nosetests
 
